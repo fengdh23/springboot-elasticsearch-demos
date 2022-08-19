@@ -1,0 +1,14 @@
+server:
+  port: 7200 # 配置服务启动的端口号
+  servlet:
+    context-path: /message
+spring:
+  elasticsearch:
+    uris: "http://192.168.1.141:9200"
+    socket-timeout: "10s"
+    username: "elastic"
+    password: "_EcPChjXnpBZYhM0iDiK"
+  jackson:
+    locale: zh_CN
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+08:00
