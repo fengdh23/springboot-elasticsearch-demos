@@ -1,0 +1,11 @@
+server:
+  port: 7203 # ??????????
+  servlet:
+    context-path: /es8
+spring:
+  # ????????
+  application:
+    name: es8-highleve-no-auth
+  elasticsearch:
+    uris: "http://192.168.1.141:9200"
+    socket-timeout: "10s"
